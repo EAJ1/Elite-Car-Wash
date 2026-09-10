@@ -1,6 +1,6 @@
 # Car Wash Project
 
-This project contains two implementations of a car wash website: a static HTML/CSS/JavaScript version and a React-based web application. Both showcase premium car washing services with a focus on Mercedes-Benz vehicles.
+This project contains two implementations of a car wash website: a static HTML/CSS/JavaScript version and a React-based web application. Both showcase premium car washing services for cars and luxury vehicles.
 
 ## Project Structure
 
@@ -35,7 +35,7 @@ A responsive, single-page website built with vanilla HTML, CSS, and JavaScript.
 ### Features
 - Readable hero section with a car photograph and clear service links
 - Services showcase with premium car wash offerings
-- About section highlighting Mercedes-Benz specialization
+- About section describing general car washing and luxury car care
 - Testimonials from satisfied customers
 - Contact form and information
 - Anchor navigation, visible keyboard focus, and a skip-to-content link

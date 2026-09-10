@@ -48,7 +48,7 @@ h3 { font-size: 1.2rem; margin-bottom: .9rem; }
 .about { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
 .about-content p:not(.eyebrow) { color: var(--muted); max-width: 60ch; margin-bottom: 1rem; }
 .about-image { background: #3b241a; border-radius: 12px; overflow: hidden; }
-.about-benz-image { filter: grayscale(1); mix-blend-mode: screen; width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 12px; }
+.about-car-image { filter: grayscale(1); mix-blend-mode: screen; width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 12px; }
 .services { background: #ffffff; }
 .service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
 .service-card { background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 1.6rem; }
@@ -116,7 +116,7 @@ h1 { font-size: clamp(3rem, 5.4vw, 5.5rem); max-width: 15ch; line-height: 1.15; 
 .hero-caption { position: absolute; bottom: 2.5rem; right: 2.5rem; left: calc(54% + 2.5rem); padding: .8rem; background: var(--ink); color: white; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; font-size: 1rem; letter-spacing: .1em; z-index: 1; }
 .cta-button, .secondary-button { border-radius: 0; font-size: 1rem; padding-inline: 1.2rem; }
 .service-strip { padding-block: 1.6rem; text-transform: uppercase; letter-spacing: .12em; font-size: 1rem; }
-.about-image, .about-benz-image { border-radius: 0; }
+.about-image, .about-car-image { border-radius: 0; }
 .about-image { padding: 1rem; border: 1px solid var(--ink); }
 .services { border-top: 1px solid var(--ink); }
 .service-grid { gap: 0; border-left: 1px solid var(--ink); }
