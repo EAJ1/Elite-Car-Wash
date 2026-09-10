@@ -163,3 +163,9 @@ The static site palette uses dark brown (`#3b241a`) and white (`#ffffff`) only. 
 The refreshed layout includes a split photo hero, a highlighted Premium Package, service enquiry links that prefill an empty message, a three-step care guide, and expandable FAQs. All four service prices and the dark brown/white palette are preserved.
 
 Readability improvements use clear sans-serif headings, supporting text of at least 16px at default browser settings, larger 18px descriptions, generous line spacing, and plain section titles. Service cards switch to two columns earlier to give enlarged text room. The photo caption sits below the image. Browser text resizing remains enabled.
+
+## Car wash visual and price board
+
+The homepage uses `car-wash-hero.png`, an AI-generated marketing illustration created with the built-in image generation tool. It does not depict the actual premises. The service menu uses brown-and-white SVG icons and large prices, with a stacked layout on mobile. The deployment workflow includes the new image.
+
+Image prompt: “Create a premium editorial photograph for a car wash website, portrait 4:5 composition. Close three-quarter front view of an unbranded luxury sedan being washed with rich white soap foam and a fan of water sprayed from the upper right, only a worker’s gloved hand and pressure washer nozzle visible at edge. Realistic water droplets and polished metal, clean professional wash bay, dramatic but clear lighting. Strict dark chocolate brown and white duotone palette, no other hues. Car and washing action centered and clearly legible when cropped. No text, logos, signs, watermark. This is an illustrative marketing asset, not a specific real business.”
