@@ -204,3 +204,9 @@ h1, h2, h3, p, a, summary { overflow-wrap: break-word; }
     .price-board p:not(.service-price) { grid-column: 1 / -1; grid-row: 3; }
     .price-board .service-link { grid-column: 1 / -1; grid-row: 4; }
 }
+
+/* Before your visit: dark brown panel with readable white FAQ text. */
+.faq { background: var(--ink); color: var(--paper); }
+.faq .eyebrow { color: var(--paper); }
+.faq-list details { border-bottom-color: var(--paper); }
+.faq :focus-visible { outline-color: var(--paper); }
