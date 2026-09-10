@@ -105,11 +105,12 @@
                 <p>info@elitebenzcare.com</p>
             </div>
         </div>
-        <form class="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send Message</button>
+        <form class="contact-form" data-endpoint="">
+            <input type="text" name="name" aria-label="Name" placeholder="Name" required>
+            <input type="email" name="email" aria-label="Email" placeholder="Email" required>
+            <textarea name="message" aria-label="Message" placeholder="Message" required></textarea>
+            <button type="submit" disabled>Send Message</button>
+            <p id="contact-status" role="status"></p>
         </form>
     </section>
 

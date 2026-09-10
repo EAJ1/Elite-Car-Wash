@@ -495,3 +495,7 @@ footer {
         font-size: 5rem;
     }
 }
+
+section[id] { scroll-margin-top: 110px; }
+.cta-button { display: inline-block; text-decoration: none; }
+.contact-form button:disabled { opacity: 0.6; cursor: not-allowed; }
