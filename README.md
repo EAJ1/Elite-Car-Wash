@@ -161,3 +161,5 @@ Prices displayed on the published static website are in South African rand (ZAR)
 The static site palette uses dark brown (`#3b241a`) and white (`#ffffff`) only. Car photos are toned through CSS to match, and service cards use simple numbered markers.
 
 The refreshed layout includes a split photo hero, a highlighted Premium Package, service enquiry links that prefill an empty message, a three-step care guide, and expandable FAQs. All four service prices and the dark brown/white palette are preserved.
+
+Readability improvements use clear sans-serif headings, supporting text of at least 16px at default browser settings, larger 18px descriptions, generous line spacing, and plain section titles. Service cards switch to two columns earlier to give enlarged text room. The photo caption sits below the image. Browser text resizing remains enabled.
