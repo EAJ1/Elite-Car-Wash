@@ -146,3 +146,14 @@ Future pushes to `main` redeploy automatically. GitHub Pages hosts static files;
 ## Readability and design
 
 The published static site uses dark text on warm light backgrounds, a shaded photo hero, larger text, comfortable line spacing, visible form labels, and layouts that stack on small screens. Text remains visible without JavaScript. Navigation respects reduced-motion preferences.
+
+## Service prices
+
+Prices displayed on the published static website are in South African rand (ZAR).
+
+| Service | Price |
+| --- | ---: |
+| Exterior Wash | R80 |
+| Interior Detailing | R160 |
+| Premium Package | R300 |
+| Engine Bay Cleaning | R500 |
