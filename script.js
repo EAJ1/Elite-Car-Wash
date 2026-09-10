@@ -4,8 +4,6 @@ const contactStatus = document.querySelector('#contact-status');
 const contactButton = contactForm.querySelector('button');
 const contactEndpoint = contactForm.dataset.endpoint;
 contactButton.disabled = !contactEndpoint;
-contactForm.hidden = !contactEndpoint;
-document.querySelector('#booking-availability').hidden = Boolean(contactEndpoint);
 if (!contactEndpoint) {
     contactStatus.textContent = 'Online enquiries are currently unavailable. No message will be sent.';
 }
