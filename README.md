@@ -33,17 +33,17 @@ Car Wash/
 A responsive, single-page website built with vanilla HTML, CSS, and JavaScript.
 
 ### Features
-- Hero section with animated text and background image
+- Readable hero section with a car photograph and clear service links
 - Services showcase with premium car wash offerings
 - About section highlighting Mercedes-Benz specialization
 - Testimonials from satisfied customers
 - Contact form and information
-- Smooth scrolling navigation
+- Anchor navigation, visible keyboard focus, and a skip-to-content link
 - Mobile-responsive design
 
 ### Technologies Used
 - HTML5
-- CSS3 (with animations and responsive design)
+- CSS3 (responsive layouts and reduced-motion support)
 - JavaScript (ES6+)
 
 ### Running the Static Site
@@ -142,3 +142,7 @@ The workflow in `.github/workflows/deploy-pages.yml` publishes the **root static
 4. After the deployment succeeds, the expected site URL is `https://eaj1.github.io/Elite-Car-Wash/`.
 
 Future pushes to `main` redeploy automatically. GitHub Pages hosts static files; receiving enquiries still requires the contact endpoint described above. If adding more local images or assets, include them in the workflow's copy step.
+
+## Readability and design
+
+The published static site uses dark text on warm light backgrounds, a shaded photo hero, larger text, comfortable line spacing, visible form labels, and layouts that stack on small screens. Text remains visible without JavaScript. Navigation respects reduced-motion preferences.
