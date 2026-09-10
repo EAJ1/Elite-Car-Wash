@@ -36,7 +36,7 @@ A responsive, single-page website built with vanilla HTML, CSS, and JavaScript.
 - Readable hero section with a car photograph and clear service links
 - Services showcase with premium car wash offerings
 - About section describing general car washing and luxury car care
-- Testimonials from satisfied customers
+- FAQs covering services and booking availability
 - Contact form and information
 - Anchor navigation, visible keyboard focus, and a skip-to-content link
 - Mobile-responsive design
@@ -173,3 +173,7 @@ Image prompt: “Create a premium editorial photograph for a car wash website, p
 The About section uses `car-wash-team.png`, created with the built-in image generation tool as an illustrative marketing scene, not a photograph of the actual team.
 
 Image prompt: “Photorealistic editorial marketing image for the About section of a car wash website. Landscape 4:3 composition: two adult car wash workers clearly visible, washing an unbranded luxury sedan together in a clean open wash bay. One worker on the left using a soft wash mitt with white soap foam on the hood, another on the right rinsing the side with a hose. Natural anatomically accurate people and hands, practical work clothes, friendly professional scene. Show both people and most of the car, eye-level medium-wide framing, no cropping of heads. Strict dark chocolate brown and white duotone aesthetic, clear daylight, realistic foam and water. No logos, no recognizable car emblems, no text, no watermark. Illustrative marketing scene, not a photograph of a specific business.”
+
+## Customer readiness
+
+Sample testimonials and placeholder phone/address details have been removed from the published page. Real contact details and opening hours still need to be supplied. The enquiry form remains hidden until its endpoint is configured; visitors see an availability notice instead. Generated PNG originals are retained locally/in the repository; deployment serves smaller JPEG copies (`car-wash-hero.jpg` and `car-wash-team.jpg`).

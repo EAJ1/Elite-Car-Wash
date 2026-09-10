@@ -210,3 +210,6 @@ h1, h2, h3, p, a, summary { overflow-wrap: break-word; }
 .faq .eyebrow { color: var(--paper); }
 .faq-list details { border-bottom-color: var(--paper); }
 .faq :focus-visible { outline-color: var(--paper); }
+
+/* Keep unavailable booking controls hidden even with the form grid layout. */
+[hidden] { display: none !important; }

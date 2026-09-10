@@ -28,7 +28,7 @@ jobs:
       - name: Prepare static website
         run: |
           mkdir _site
-          cp index.html styles.css script.js car-wash-hero.png car-wash-team.png _site/
+          cp index.html styles.css script.js car-wash-hero.jpg car-wash-team.jpg _site/
           touch _site/.nojekyll
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
