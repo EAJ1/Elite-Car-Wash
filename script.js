@@ -29,3 +29,13 @@ contactForm.addEventListener('submit', async (e) => {
         contactButton.disabled = false;
     }
 });
+
+// Carry the selected service into the enquiry without overwriting a draft.
+document.querySelectorAll('[data-service]').forEach(link => {
+    link.addEventListener('click', () => {
+        const message = document.querySelector('#contact-message');
+        if (!message.value.trim()) {
+            message.value = `I’m interested in ${link.dataset.service}. `;
+        }
+    });
+});

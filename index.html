@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Elite Car Wash services: exterior wash R80, interior detailing R160, premium package R300, and engine bay cleaning R500.">
     <title>Elite Car Wash - Premium Cleaning Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -24,17 +25,19 @@
     <main id="main">
     <section id="home" class="hero">
         <div class="hero-content">
-            <p class="eyebrow">Premium car care</p>
-            <h1>Shine Like Never Before</h1>
+            <p class="eyebrow">ELITE / PREMIUM CAR CARE</p>
+            <h1>A little care.<br>A lasting <em>impression.</em></h1>
             <p>A fresh finish. A cleaner interior. Thoughtful care for your Mercedes-Benz, inside and out.</p>
             <div class="hero-actions">
                 <a class="cta-button" href="#services">Explore our services</a>
                 <a class="secondary-button" href="#contact">Book Now &rarr;</a>
             </div>
+            <p class="hero-note">Exterior washes from R80 <span aria-hidden="true">/</span> Explore the full menu below</p>
         </div>
         <div class="hero-bg" aria-hidden="true">
             <img src="benz1.jpg" alt="Mercedes-Benz Car" class="hero-image">
         </div>
+        <div class="hero-caption" aria-hidden="true">THE ART OF A CLEAN FINISH <span>01 — ELITE</span></div>
     </section>
 
     <div class="service-strip" aria-label="Our services"><span>Exterior washing</span><span>Interior detailing</span><span>Luxury car care</span></div>
@@ -53,7 +56,7 @@
 
     <section id="services" class="services">
         <p class="eyebrow">Choose your clean</p>
-        <h2>Care for every corner.</h2>
+        <h2>Your car. <em>Your kind of clean.</em></h2>
         <p class="section-intro">From everyday refreshes to a complete detail, find the service that fits your car. Prices are in South African rand (ZAR).</p>
         <div class="service-grid">
             <div class="service-card animate-on-scroll">
@@ -61,26 +64,39 @@
                 <h3>Exterior Wash</h3>
                 <p class="service-price">R80</p>
                 <p>Deep cleaning and waxing for a sparkling finish, perfect for Mercedes-Benz vehicles</p>
+                <a class="service-link" href="#contact" data-service="Exterior Wash">Enquire about this service <span aria-hidden="true">↗</span></a>
             </div>
             <div class="service-card animate-on-scroll">
                 <div class="service-icon" aria-hidden="true">02</div>
                 <h3>Interior Detailing</h3>
                 <p class="service-price">R160</p>
                 <p>Thorough cleaning of interior surfaces, preserving luxury materials</p>
+                <a class="service-link" href="#contact" data-service="Interior Detailing">Enquire about this service <span aria-hidden="true">↗</span></a>
             </div>
-            <div class="service-card animate-on-scroll">
-                <div class="service-icon" aria-hidden="true">03</div>
+            <div class="service-card featured-service">
+                <div class="service-icon" aria-hidden="true">03 <span>INSIDE &amp; OUT</span></div>
                 <h3>Premium Package</h3>
                 <p class="service-price">R300</p>
                 <p>Complete exterior and interior service with Mercedes-Benz care standards</p>
+                <a class="service-link" href="#contact" data-service="Premium Package">Enquire about this service <span aria-hidden="true">↗</span></a>
             </div>
             <div class="service-card animate-on-scroll">
                 <div class="service-icon" aria-hidden="true">04</div>
                 <h3>Engine Bay Cleaning</h3>
                 <p class="service-price">R500</p>
                 <p>Specialized cleaning for high-performance engines</p>
+                <a class="service-link" href="#contact" data-service="Engine Bay Cleaning">Enquire about this service <span aria-hidden="true">↗</span></a>
             </div>
         </div>
+    </section>
+
+    <section class="care-guide" aria-labelledby="care-heading">
+        <div><p class="eyebrow">Keep it simple</p><h2 id="care-heading">A fresh start,<br>in three steps.</h2></div>
+        <ol class="care-steps">
+            <li><span>01</span><div><h3>Find your service</h3><p>Choose an exterior refresh, interior detail, or a complete package.</p></div></li>
+            <li><span>02</span><div><h3>Send an enquiry</h3><p>Tell us the service you’re interested in and what your car needs.</p></div></li>
+            <li><span>03</span><div><h3>Confirm the details</h3><p>Arrange a time with the team. An enquiry does not confirm a booking.</p></div></li>
+        </ol>
     </section>
 
     <section id="testimonials" class="testimonials">
@@ -102,9 +118,18 @@
         </div>
     </section>
 
+    <section class="faq" aria-labelledby="faq-heading">
+        <div><p class="eyebrow">Before your visit</p><h2 id="faq-heading">A few useful details.</h2></div>
+        <div class="faq-list">
+            <details><summary>What does the Premium Package include?</summary><p>The R300 Premium Package combines exterior and interior care. For a specific cleaning requirement, include the details in your enquiry.</p></details>
+            <details><summary>Can I book a time online?</summary><p>The website lets you explore services. Online enquiries are currently unavailable. When enabled, enquiries will still need confirmation from the team before a booking is made.</p></details>
+            <details><summary>Which currency are the prices in?</summary><p>All prices are in South African rand (ZAR): R80 for Exterior Wash, R160 for Interior Detailing, R300 for the Premium Package, and R500 for Engine Bay Cleaning.</p></details>
+        </div>
+    </section>
+
     <section id="contact" class="contact">
         <p class="eyebrow">Let’s talk car care</p>
-        <h2>Contact Us</h2>
+        <h2>Let’s give your car<br><em>some attention.</em></h2>
         <div class="contact-info">
             <div class="info-item">
                 <h3>Location</h3>
@@ -134,6 +159,8 @@
     </main>
 
     <footer>
+        <div class="footer-brand">ELITE<span>CAR WASH</span></div>
+        <a class="back-top" href="#home">Back to top ↑</a>
         <p>&copy; 2026 Elite Car Wash. All rights reserved.</p>
         <p>Specializing in Mercedes-Benz detailing and luxury car care.</p>
     </footer>

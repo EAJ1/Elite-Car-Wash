@@ -159,3 +159,5 @@ Prices displayed on the published static website are in South African rand (ZAR)
 | Engine Bay Cleaning | R500 |
 
 The static site palette uses dark brown (`#3b241a`) and white (`#ffffff`) only. Car photos are toned through CSS to match, and service cards use simple numbered markers.
+
+The refreshed layout includes a split photo hero, a highlighted Premium Package, service enquiry links that prefill an empty message, a three-step care guide, and expandable FAQs. All four service prices and the dark brown/white palette are preserved.
